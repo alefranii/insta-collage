@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Collage</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://use.fontawesome.com/d2c9b2c5c1.js"></script> <!-- iconos -->
+	<link rel="stylesheet" href="assets/css/style2.css">
+	<link rel="shortcut icon" href="assets/img/favicon.ico">    <!-- favicon -->
+</head>
+<body>
+
+<!-- cajas contenedoras 4 -->
+	<div class="container-fluid top">
+		<div class="row">
+			<div class="col-xs-4 text-left">
+				<i class="fa fa-wifi" aria-hidden="true"></i>
+			</div>
+			<div class="col-xs-4 text-center">
+				9:40 AM
+			</div>
+			<div class="col-xs-4 text-right">
+				<i class="fa fa-battery" aria-hidden="true"></i>
+			</div>
+		</div>
+	</div>
+
+	<section class="container gris" ondrop="drop(event)" ondragover="finalDrop(event)">
+		<div class="row">
+			
+				
+			<div class="col-xs-6 caja img-responsive" id="contiene1" ondrop="drop(event)" ondragover="finalDrop(event)">
+						
+			</div>
+			<div class="col-xs-6 caja" id="contiene2" ondrop="drop(event)" ondragover="finalDrop(event)">
+						
+			</div>
+			<div class="col-xs-6 caja" id="contiene3" ondrop="drop(event)" ondragover="finalDrop(event)">
+						
+			</div>
+			<div class="col-xs-6 caja" id="contiene4" ondrop="drop(event)" ondragover="finalDrop(event)">
+						
+			</div>
+						
+					
+		</div>
+	</section>
+
+	<div class="container-fluid middle text-center">
+		<i class="fa fa-instagram" aria-hidden="true"></i> 
+		<h2>PHOTO BOOTH</h2>
+	</div>
+
+	<section class="container-fluid">
+		<div class="row">
+			<div class="col-sm-4 col-xs-4 text-center colu">
+
+				<img class="img-responsive" draggable="true" src="assets/img/hi1.jpg" alt="" ondragstart="drag(event)" id="1">
+				<img class="img-responsive" draggable="true" src="assets/img/hi2.jpg" alt="" ondragstart="drag(event)" id="2">
+				<img class="img-responsive" draggable="true" src="assets/img/hi3.jpg" alt="" ondragstart="drag(event)" id="3">
+			</div>
+			<div class="col-sm-4 col-xs-4 text-center colu">
+				<img class="img-responsive" draggable="true" src="assets/img/hi4.jpg" alt="" ondragstart="drag(event)" id="6">
+				<img class="img-responsive" draggable="true" src="assets/img/hi5.jpg" alt="" ondragstart="drag(event)" id="4">
+				<img class="img-responsive" draggable="true" src="assets/img/hi6.jpg" alt="" ondragstart="drag(event)" id="5">
+				
+			</div>
+			<div class="col-sm-4 col-xs-4 text-center colu">
+				<img class="img-responsive" draggable="true" src="assets/img/hi2.jpg" alt="" ondragstart="drag(event)" id="8">
+				<img class="img-responsive" draggable="true" src="assets/img/hi3.jpg" alt="" ondragstart="drag(event)" id="9">
+				<img class="img-responsive" draggable="true" src="assets/img/hi1.jpg" alt="" ondragstart="drag(event)" id="7">
+			</div>			
+		</div>
+	</section>	
+	
+	<div class="container-fluid bottom">
+		<div class="row">
+			<div class="col-xs-4 text-left">
+				<h2>CAMERA ROLL </h2> <i class="fa fa-angle-down fa-fw"></i>
+			</div>
+			<div class="col-xs-4 text-center">
+				<h2>FACES</h2>
+			</div>
+			<div class="col-xs-4 text-right">
+				<h2>RECENT</h2>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/8f8db047c3.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
